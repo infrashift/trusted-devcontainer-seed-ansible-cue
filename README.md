@@ -70,7 +70,7 @@ under the repository owner's namespace, tagged with the revision.
 
 ## No companion service, on purpose
 
-This seed declares no `.shadowforge/services.json`: an Ansible workspace's
+This seed declares no `.devcontainer/services.json`: an Ansible workspace's
 companion is a target host, not a database. The platform deploys its built-in
 PostgreSQL beside the workspace regardless, and `psql` is in the image so the
 devpod verify can reach it. Add a `services.json` and a `services/<name>/`
