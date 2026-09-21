@@ -7,6 +7,7 @@
     "updateRemoteUserUID": false,
     "features": {
         "ghcr.io/infrashift/trusted-devcontainer-features/bootstrap@sha256:071c527c9e6e7acc87556bc8ef6b495a59f2f5569ff97c796e95148a3c9fd97c": {},
+        "ghcr.io/infrashift/trusted-devcontainer-features/make@sha256:22e0f07f3b69d93b1dc9c85b09020021c194cf4a76094ed88dbcc73dcb588a85": {},
         "ghcr.io/infrashift/trusted-devcontainer-features/ansible-core@sha256:628d869e55a56d3a93973976dee6618842c0383a318c7948a90fbf79fbb93418": {
             "target_version": "2.21.3",
             "target_python_version": "3.13"
